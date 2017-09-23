@@ -1,5 +1,6 @@
 package com.example.maha.newloginwithadaptersharedprefsql;
 
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -42,10 +43,15 @@ public class SignUp extends AppCompatActivity {
                 SharedPreferences sharedPreferences = getSharedPreferences(SHARED_PREF_NAME, MODE_PRIVATE);
                 SharedPreferences.Editor editor=sharedPreferences.edit();
 
+
                 Gson gson = new Gson();
                 String theUser=gson.toJson(gson);
                 editor.putString("CurrentU", theUser);
                 editor.apply();
+
+                Intent i = new Intent(SignUp.this, MainNotes.class);
+                startActivity(i);
+
 
 
             }

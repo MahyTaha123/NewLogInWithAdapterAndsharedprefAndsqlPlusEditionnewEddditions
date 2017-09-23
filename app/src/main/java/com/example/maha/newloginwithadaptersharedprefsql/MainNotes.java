@@ -21,6 +21,9 @@ public class MainNotes extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_notes);
+
+      Intent s = getIntent();
+
         Intent i = getIntent();
 //
 

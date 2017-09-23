@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
 
 //
 
-                if (uName==finalUser.getName() &&uPassword==finalUser.getPass() ){
+                if (uName.equals(finalUser.getName()) &&uPassword==finalUser.getPass() ){
 
                     Intent intent1 = new Intent(MainActivity.this,MainNotes.class);
                     startActivity(intent1);
