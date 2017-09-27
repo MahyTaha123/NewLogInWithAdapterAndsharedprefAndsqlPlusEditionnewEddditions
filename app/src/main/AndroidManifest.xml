@@ -17,7 +17,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".SignUp" />
-        <activity android:name=".MainNotes" />
+        <activity android:name=".MainNotes" android:parentActivityName=".MainActivity"
+
+            />
     </application>
 
 </manifest>
