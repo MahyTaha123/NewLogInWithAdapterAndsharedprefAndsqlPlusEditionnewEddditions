@@ -5,6 +5,8 @@
       <module fileurl="file://$PROJECT_DIR$/NewLogInWithAdapter,sharedpref,sql.iml" filepath="$PROJECT_DIR$/NewLogInWithAdapter,sharedpref,sql.iml" />
       <module fileurl="file://$PROJECT_DIR$/NewLogInWithAdapterAndsharedprefAndsql.iml" filepath="$PROJECT_DIR$/NewLogInWithAdapterAndsharedprefAndsql.iml" />
       <module fileurl="file://$PROJECT_DIR$/NewLogInWithAdapterAndsharedprefAndsqlPlusEdition+.iml" filepath="$PROJECT_DIR$/NewLogInWithAdapterAndsharedprefAndsqlPlusEdition+.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NewLogInWithAdapterAndsharedprefAndsqlPlusEditionnewEdditions.iml" filepath="$PROJECT_DIR$/NewLogInWithAdapterAndsharedprefAndsqlPlusEditionnewEdditions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

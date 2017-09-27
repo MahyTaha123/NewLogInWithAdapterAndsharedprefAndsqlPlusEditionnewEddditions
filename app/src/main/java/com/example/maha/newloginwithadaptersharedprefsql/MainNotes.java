@@ -34,16 +34,17 @@ public class MainNotes extends AppCompatActivity {
             Intent i = new Intent(MainNotes.this, MainActivity.class);
             startActivity(i);
             finish();
-            onBackPressed();
+            return true;
+
+
+
+
+
         }
             return true;
         }
 
-    @Override
-    public void onBackPressed() {
-        finish();
-        super.onBackPressed();
-    }
+
 ////////////////////////////////////////////////////////////////////////////  (logout)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
