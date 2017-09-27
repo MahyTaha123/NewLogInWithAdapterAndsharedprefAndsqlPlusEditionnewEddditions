@@ -28,7 +28,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+///////////////////////////////////////////////////////////
+        Intent fromLogout = getIntent();
+//////////////////////////////////////////////////////////
         userName = (EditText) findViewById(R.id.userName);
         password = (EditText) findViewById(R.id.password);
         logIn = (Button) findViewById(R.id.logIn);

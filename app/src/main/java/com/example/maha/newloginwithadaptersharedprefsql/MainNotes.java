@@ -29,19 +29,22 @@ public class MainNotes extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
 
-        Intent i = new Intent(MainNotes.this, MainActivity.class);
-        startActivity(i);
-        finish();
-        onBackPressed();
-        return super.onOptionsItemSelected(item);
-    }
+        switch (item.getItemId()) {
+            case R.id.logOut:
+            Intent i = new Intent(MainNotes.this, MainActivity.class);
+            startActivity(i);
+            finish();
+            onBackPressed();
+        }
+            return true;
+        }
 
     @Override
     public void onBackPressed() {
         finish();
         super.onBackPressed();
     }
-////////////////////////////////////////////////////////////////////////////(logout)
+////////////////////////////////////////////////////////////////////////////  (logout)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
