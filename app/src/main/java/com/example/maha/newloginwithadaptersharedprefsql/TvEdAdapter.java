@@ -53,6 +53,7 @@ public class TvEdAdapter extends ArrayAdapter<TvEdModel> {
                 // popupMenu.inflate(R.menu.poupup_menu);
                 popupM.getMenuInflater()
                         .inflate(R.menu.poupup_menu, popupM.getMenu());
+                popupM.show();
                 popupM.setOnMenuItemClickListener(new PopupMenu.OnMenuItemClickListener() {
                     @Override
                     public boolean onMenuItemClick(MenuItem menuItem) {
